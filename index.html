@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SisiJogja</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Judul">
+            <h1>SisiJogja</h1>
+          </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#info">Info</a></li>
+            </ul>
+            <div class="search">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+                </svg>
+            </div>
+        </nav>
+    <div class="slider" id="home">
+        <div>
+        <div class="list">
+            <div class="item active">
+                <img src="assets/img/img_kalikuning.jpg" alt="kalikuning">
+                <div class="content">
+                    <p>Nature</p>
+                    <h2>Kalikuning</h2>
+                    <p>
+                        Kalikuning Merapi in Yogyakarta is a natural tourist destination that offers a combination of the beauty of the mountains with the cool nuances typical of the slopes of Merapi. Located in an unspoiled forest area, this place is famous for its clear river flow, charming bamboo bridge, and direct views of the majesty of Mount Merapi.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_parangtritis.jpg" alt="Parangtritis">
+                <div class="content">
+                    <p>Nature</p>
+                    <h2>Parangtritis</h2>
+                    <p>
+                    Parangtritis Beach in Yogyakarta is one of the most famous beaches with panoramic views of the big waves of the Indian Ocean combined with a wide expanse of black sand. Apart from its natural beauty, this beach is also closely related to the mystical legend of Ratu Kidul which adds a special attraction for visitors. From afternoon until dusk, Parangtritis Beach offers stunning sunset views, making it a favorite place to relax and take photos.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_kraton.jpg" alt="Kraton">
+                <div class="content">
+                    <p>Heritage</p>
+                    <h2>Kraton</h2>
+                    <p>
+                      Kraton Yogyakarta is the official palace of the Ngayogyakarta Hadiningrat Sultanate which is the center of Javanese culture, history and traditional life. Located in the heart of Yogyakarta City, this building combines typical Javanese architecture with elegant colonial touches, surrounded by a spacious square and a majestic fort.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_prambanan.jpg" alt="Prambanan">
+                <div class="content">
+                    <p>Haritage</p>
+                    <h2>Prambanan</h2>
+                    <p>
+                       Prambanan Temple in Yogyakarta is the largest Hindu temple complex in Indonesia which is famous for its magnificent architecture and beautiful reliefs that tell the story of the Ramayana. Built in the 9th century, this temple has three main temples dedicated to Trimurti, namely the Gods Brahma, Vishnu and Shiva, with the Shiva Temple being the highest, rising up to 47 meters. The sacred atmosphere combined with the majesty of the buildings makes Prambanan one of the world's cultural heritages recognized by UNESCO.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_malioboro.jpg" alt="kalikuning">
+                <div class="content">
+                    <p>Culture</p>
+                    <h2>Malioboro</h2>
+                    <p>
+                     Malioboro Yogyakarta is an icon of shopping and cultural tourism which is always busy with tourists, both day and night. This street is famous for its rows of shops, street vendors, and shopping centers that sell various typical souvenirs, from batik, handicrafts, to traditional culinary delights. Malioboro's atmosphere is increasingly lively with the presence of street artists, musicians and cultural performances which add to its appeal. At night, this area becomes even more lively with rows of lesehan serving various typical Jogja dishes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- button arrows -->
+         <div class="arrows">
+            <button id="prev"> < </button>
+            <button id="next"> > </button>
+         </div>
+         <!-- thumnail -->
+         
+    </div>
+     <div class="thumnail">
+            <div class="item active">
+                <img src="assets/img/img_kalikuning.jpg" alt="img_kalikuning">
+                <div class="content">
+                    Kalikuning
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_parangtritis.jpg" alt="img_parangtritis">
+                 <div class="content">
+                    Parangtritis
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_kraton.jpg" alt="img_kraton">
+                 <div class="content">
+                   Kraton
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_prambanan.jpg" alt="img_prambanan">
+                 <div class="content">
+                  Prambanan
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/img_malioboro.jpg" alt="img_malioboro">
+                 <div class="content">
+                    Malioboro
+                </div>
+            </div>
+          </div>
+    </header>
+
+    <!-- Konten Artikel -->
+      <main id="blog">
+        <!-- konten artikel -->
+        <div id="content-artikel" class="content-left">
+            
+            <h2 id="sejarah">History</h2>
+            <article id="sejarah" class="card-content">
+                <img src="/assets/img/img_sejarahYogyakarta.png" alt="img_sejarahYogyakarta" class="featured-image">
+                <div class="content">
+                    <p>
+                        The founding of the City of Yogyakarta began with the Gianti Agreement on February 13, 1755 which was signed by the Dutch Company under the signature of Governor Nicholas Hartingh on behalf of Governor General Jacob Mossel. Contents of the Gianti Agreement: The Mataram State was divided into two: Half still belonged to the Kingdom of Surakarta, the other half belonged to Prince Mangkubumi. In this agreement, Prince Mangkubumi was also recognized as King over half of the interior of the Javanese Kingdom with the title Sultan Hamengku Buwono Senopati Ing Alega Abdul Rachman Sayidin Panatagama Khalifatullah.
+                    </p>
+                    <p>
+                       The areas he controls are Mataram (Yogyakarta), Pojong, Sukowati, Bagelen, Kedu, Bumigede and additional foreign areas, namely; Madiun, Magetan, Cirebon, Half Pacitan, Kartosuro, Kalangbret, Tulungagung, Mojokerto, Bojonegoro, Ngawen, Sela, Kuwu, Wonosari, Grobogan. After the Regional Division Agreement was completed, Pengeran Mangkubumi, who had the title Sultan Hamengku Buwono I, immediately decided that the Mataram area he controlled would be named Ngayogyakarta Hadiningrat and its capital city would be Ngayogyakarta (Yogyakarta). This decree was promulgated on March 13, 1755.
+                    </p>
+            </article>
+
+            <h2 id="geografis">Geographic</h2>
+            <article id="geografis" class="card-content">
+                <img src="assets/img/img_petaYogyakarta.jpg" alt="geografis" class="featured-image">
+                <div class="content">
+                    <p>
+                        The location of the city of Yogyakarta is traversed by three rivers, namely the Winongo River, Gajahwong River and Code River. The Winongo River is in the western part of Yogyakarta City, while the Gajahwong River is in the eastern part. Meanwhile, the Code River is in the middle of Yogyakarta City.[17] The existence of the Code River divides the city of Yogyakarta into two parts. This city is located at a distance of 600 KM from Jakarta, 116 KM from Semarang, and 65 KM from Surakarta, at the intersection of Bandung–Semarang–Surabaya–Pacitan. This city has a height of around 112 m above sea level.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+        </div>
+        <aside class="right-content">
+            <article class="profile-card">
+                <!-- Konten Gambar Informasi Lainnya -->
+                 <header>
+                    <figure>
+                        <img src="assets/img/img_lambang yogyakarta.png" alt="logo tugu">
+                        <figcaption>Local Emblem</figcaption>
+                    </figure>
+                 </header>
+
+                <!-- Konten Informasi Lainnya -->
+                 <section>
+                    <h3>Yogyakarta</h3>
+
+                    <table>
+                        <tr>
+                            <th>Country</th>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Province</th>
+                            <td>Special Region of Yogyakarta</td>
+                        </tr>
+                        <tr>
+                            <th>Area</th>
+                            <td>2,159.1 km<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <th>Area code</th>
+                            <td>(+62) 274</td>
+                        </tr>
+                    </table>
+                 </section>
+            </article>
+        </aside>
+    </main>
+    <footer id="info">
+        <div class="footer-container">
+
+            <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p>Address: Salak Street</p>
+            <p>Phone: (+62)274 909-754-256</p>
+            <p>Email: sisiyogya@yahoo</p>
+            </div>
+
+            <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#info">Information</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-section">
+            <h3>Legal & Policies</h3>
+            <ul>
+                <li><a href="#policy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms & Conditions</a></li>
+                <li><a href="#return">Return Policy</a></li>
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 SisiJogja.id All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
